@@ -23,23 +23,18 @@
 
 .input {
   background-color: white;
-  padding: 12px;
+  padding: 12px 22px;
   width: 380px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0;
-  display: flex;
   border-radius: 30px;
-  padding-left: 22px;
+  box-sizing: border-box; /* importante */
 }
 
 .input input {
-  background-color: transparent;
-  border: 0;
-  font-size: 20px;
-  color: black;
-  outline: none;
-  margin-right: 8px;
+  flex: 1; /* ocupa o espaço disponível */
+  min-width: 0; /* evita overflow no mobile */
 }
 
 .botao {
@@ -94,13 +89,9 @@
   }
 
   .input {
-    background-color: white;
-    width: 280px;
-    height: 10px;
-  }
-
-  .input input {
-    color: black;
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
   }
 
   .main {
