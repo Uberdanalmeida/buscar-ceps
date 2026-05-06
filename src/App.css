@@ -30,13 +30,13 @@
   padding: 12px 16px;
   border-radius: 50px;
 
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   transition: all 0.25s ease;
 }
 
 /* efeito ao focar */
 .input:focus-within {
-  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
   transform: scale(1.02);
 }
 
@@ -66,7 +66,7 @@
 
 /* hover estilo Google */
 .botao:hover {
-  background: rgba(0,0,0,0.05);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 /* clique */
@@ -82,7 +82,7 @@
   border-radius: 12px;
   width: 400px;
   max-width: 90%;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 
   animation: fadeIn 0.4s ease;
 }
@@ -110,28 +110,28 @@
   }
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
   .titulo {
     font-size: 80px;
     font-size: 30px;
   }
 
   .container {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-  background: url('./imagem/manha.png') center/cover no-repeat;
-}
+    background: url("./imagem/manha.png") center/cover no-repeat;
+  }
 
-/* garante que conteúdo fique acima */
-.container * {
-  position: relative;
-  z-index: 1;
-}
+  /* garante que conteúdo fique acima */
+  .container * {
+    position: relative;
+    z-index: 1;
+  }
 
   .input {
     width: 100%;
